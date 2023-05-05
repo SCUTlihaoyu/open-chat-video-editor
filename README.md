@@ -94,6 +94,31 @@ pip install -r http://requirements.txt
  conda install -c pytorch faiss-cpu
 
 ### 代码执行
+1 根据实际需要，选择不同的配置文件
+|  配置文件   | 说明  |
+|  ----  | ----  |
+| configs/text2video/image_by_retrieval_text_by_chatgpt_zh.yaml  | 短文本转视频,视频文案采用chatgpt生成,视觉部分采用图像检索来生成|
+| configs\text2video\image_by_diffusion_text_by_chatgpt_zh.yaml  | 短文本转视频,视频文案采用chatgpt生成, 视觉部分采用图像stable diffusion 来生成 |
+| configs\text2video\image_by_retrieval_then_diffusion_chatgpt_zh.yaml |短文本转视频,视频文案采用chatgpt生成,视觉部分采用先图像检索，然后再基于图像的stable diffusion 来生成|
+|configs\text2video\video_by_retrieval_text_by_chatgpt_zh.yaml|短文本转视频, 视频文案采用chatgpt生成,视觉部分采用视频检索来生成| 
+| configs\url2video\image_by_retrieval_text_by_chatgpt.yaml | url转视频，视频文案采用chatgpt生成,视觉部分采用图像检索来生成|
+| configs\url2video\image_by_diffusion_text_by_chatgpt.yaml|url转视频,视频文案采用chatgpt生成, 视觉部分采用图像stable diffusion 来生成|
+|configs\url2video\image_by_retrieval_then_diffusion_chatgpt.yaml|url转视频,视频文案采用chatgpt生成,视觉部分采用先图像检索，然后再基于图像的stable diffusion 来生成|
+|configs\url2video\video_by_retrieval_text_by_chatgpt.yaml|url转视频,视频文案采用chatgpt生成,视觉部分采用视频检索来生成 |
+**需要注意的是：如果要采用ChatGPT来生成文案，需要在配置文件里面，添加organization 和 api_key**
+```
+# Text to video 
+
+python  app/app.py --func Text2VideoEditor  --cfg ${cfg_file}
+
+
+# URL to video 
+
+python  app/app.py --func URL2VideoEditor  --cfg ${cfg_file}
+
+```
+
+
 
 
 ## 声明 
