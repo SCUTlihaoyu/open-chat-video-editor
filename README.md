@@ -76,13 +76,24 @@ https://user-images.githubusercontent.com/21036347/236430102-6054b28c-ebeb-42a2-
 (3) 自动合成短视频
 例如图像生成模式下生成的结果如下，其他模式不再一一对比
 
-
 https://user-images.githubusercontent.com/21036347/236431745-9f61ebcc-91b5-4157-adf9-abf9c371e461.mp4 
 
+### 3 长视频转短视频(Long Video to Short Video)
+  **即将发布，敬请期待**
 
 
 ## 安装与使用 
+### 环境安装
+1.安装依赖环境
+pip install -r http://requirements.txt
 
+2  安装clip 
+ pip install git+https://github.com/openai/CLIP.git
+ 
+3 安装faiss 
+ conda install -c pytorch faiss-cpu
+
+### 代码执行
 
 
 
