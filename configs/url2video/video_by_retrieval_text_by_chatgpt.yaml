@@ -1,0 +1,25 @@
+video_editor:
+  type: text2video
+
+  # visual
+  visual_gen:
+    type: video_by_retrieval
+    video_by_retrieval:
+      model: ViT-B/32
+      device: 'cpu'
+      index_path: data/index/webvid_ip.faiss
+      meta_path: data/index/webvid_ip.db
+
+  # tts 
+  tts_gen:
+    model: PaddleSpeechTTS
+    am: speedyspeech_csmsc
+    lang: zh
+
+  # subtitle 
+  subtitle:
+    font: 华文细黑
+  text_gen:
+    type: URL2TextChatGPTModel
+    organization: your_organization
+    api_key: "your_api_key"
