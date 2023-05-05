@@ -40,16 +40,27 @@ Open Chat Video Editor是开源的短视频生成和编辑工具，整体技术�
 
 根据不同的视频生成模式，可以生成不同的视频，各个模式对比如下: 
 
-(1) 图像检索
+ **(1)图像检索** 
 
 https://user-images.githubusercontent.com/21036347/236428839-9c3c3a2d-6163-4577-82f5-5815772f294f.mp4
 
-(2) 图像生成（stable diffusion）
+**(2)图像生成(stable diffusion)** 
 
 https://user-images.githubusercontent.com/21036347/236429111-b151f3b5-64d0-4572-8daa-29a78a3d1f3d.mp4
 
+**(3)先图像检索，再基于stable diffusion 进行图像生成** 
+
+https://user-images.githubusercontent.com/21036347/236429690-93ea7377-e233-4629-868f-ef953a4dfa4c.mp4
+
+**(4) 视频检索 ** 
+
+https://user-images.githubusercontent.com/21036347/236430102-6054b28c-ebeb-42a2-880e-b2656fc32138.mp4
+
 
 ## 安装与使用 
+
+
+
 
 
 ## 交流与学习 
