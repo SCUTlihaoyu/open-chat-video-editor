@@ -12,7 +12,7 @@ Open Chat Video Editor是开源的短视频生成和编辑工具，整体技术�
 - [x] **短句转短视频**(Text2Video): 根据输入的简短文字，生成短视频文案，并合成短视频
 - [x] **网页链接转短视频**(URL2Video): 自动对网页的内容进行提取，生成视频文案，并生成短视频
 - [ ] **长视频转短视频**(Long Video to Short Video): 对输入的长视频进行分析和摘要，并生成短视频
-- 4、涵盖**生成模型**和**多模态检索模型**等多种主流算法和模型
+- 4、涵盖**生成模型**和**多模态检索模型**等多种主流算法和模型，如: Chatgpt,Stable Diffusion,CLIP 等
 
 文本生成上，支持：
 - [x] ChatGPT 
@@ -123,7 +123,6 @@ python  app/app.py --func URL2VideoEditor  --cfg ${cfg_file}
 ```
 
 
-
 ## 声明 
 1 数据来源 
 图像检索数据来源于:[LAION-5B](https://laion.ai/blog/laion-5b/)
@@ -133,6 +132,11 @@ python  app/app.py --func URL2VideoEditor  --cfg ${cfg_file}
 请注意，我们并不拥有数据版权
 
 2 该项目仅用于交流学习，不得用于商业，以及其他会对社会带来危害的用途。
+
+## TODO 
+- [ ] 在短视频文案数据上对文本模型finetune,支持更多的文案风格
+- [ ]  finetune SD模型，提升图像和视频的生成效果
+
 
 ## 交流与学习 
 欢迎通过[Discard](https://discord.gg/yWt59JUd) 或者微信与我们交流学习
