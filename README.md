@@ -84,15 +84,26 @@ https://user-images.githubusercontent.com/21036347/236431745-9f61ebcc-91b5-4157-
 
 ## 安装与使用 
 ### 环境安装
-1）安装依赖环境
+
+1）安装pytorch 
+```
+# GPU 版本
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+
+# CPU版本
+pip3 install torch torchvision torchaudio
+
+```
+
+2）安装其他依赖环境
 
 ```pip install -r requirements.txt```
 
-2）安装clip 
+3）安装clip 
 
  ```pip install git+https://github.com/openai/CLIP.git```
  
-3）安装faiss 
+4）安装faiss 
 
  ```conda install -c pytorch faiss-cpu```
 
