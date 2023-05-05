@@ -109,7 +109,7 @@ pip install -r http://requirements.txt
 
 **需要注意的是：如果要采用ChatGPT来生成文案，需要在配置文件里面，添加organization 和 api_key**
 
-2 下载数据索引和meta信息,并放置到data/index 目录下，
+2 下载数据索引和meta信息[data.tar](https://pan.quark.cn/s/19fa46ceb2cb),并解压到 data/index 目录下，
 
 3 执行脚本 
 ```
