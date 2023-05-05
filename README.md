@@ -56,6 +56,30 @@ https://user-images.githubusercontent.com/21036347/236429690-93ea7377-e233-4629-
 
 https://user-images.githubusercontent.com/21036347/236430102-6054b28c-ebeb-42a2-880e-b2656fc32138.mp4
 
+### 2网页转短视频(url2Video)
+界面如下：
+
+![url2video](https://user-images.githubusercontent.com/21036347/236430693-fe9b3d15-8da8-4a50-b7a9-b4dc93614076.png)
+
+(1) 输入一个url, 例如：https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9B%BD%E7%9F%AD%E6%AF%9B%E7%8C%AB
+其内容是：美国短毛猫的维基百科
+
+![wiki](https://user-images.githubusercontent.com/21036347/236431138-5fbb6cf2-07c8-41a3-989d-64731a6891d4.png)
+
+(2) 解析网页并自动摘要成短视频文案，结果如下：
+```
+['\n\n美国短毛猫', '是一种神奇又魔幻的宠物猫品种', '它们优雅可爱', '活力无比', '能拥有多达80多种头毛色彩', '最出名的是银虎斑', '其银色毛发中透着浓厚的黑色斑 
+纹', '除此之外', '它们还非常温柔', '是非常适合家庭和人类相处的宠物', '并且平均寿命达15-20年', '这种可爱的猫 
+品种', '正在受到越来越多人的喜爱', '不妨试试你也来养一只吧']
+
+```
+(3) 自动合成短视频
+例如图像生成模式下生成的结果如下，其他模式不再一一对比
+
+
+https://user-images.githubusercontent.com/21036347/236431745-9f61ebcc-91b5-4157-adf9-abf9c371e461.mp4 
+
+
 
 ## 安装与使用 
 
