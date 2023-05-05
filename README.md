@@ -96,13 +96,20 @@ pip install -r http://requirements.txt
 ### 代码执行
 
 
+## 声明 
+1 数据来源 
+图像检索数据来源于:[LAION-5B](https://laion.ai/blog/laion-5b/)
 
+视频检索数据来源于：[webvid-10m](https://m-bain.github.io/webvid-dataset/)
+
+请注意，我们并不拥有数据版权
+
+2 该项目仅用于交流学习，不得用于商业，以及其他会对社会带来危害的用途。
 
 ## 交流与学习 
+欢迎通过[Discard](https://discord.gg/yWt59JUd) 或者微信与我们交流学习
 
-
-## 声明 
-
+![微信图片_20230505204811](https://user-images.githubusercontent.com/21036347/236461673-53188ad6-ad27-470f-9910-6e648f92c240.jpg)
 
 
 
