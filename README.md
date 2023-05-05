@@ -85,7 +85,7 @@ https://user-images.githubusercontent.com/21036347/236431745-9f61ebcc-91b5-4157-
 ## 安装与使用 
 ### 环境安装
 1.安装依赖环境
-pip install -r http://requirements.txt
+pip install -r requirements.txt
 
 2  安装clip 
  pip install git+https://github.com/openai/CLIP.git
