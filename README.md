@@ -52,7 +52,7 @@ https://user-images.githubusercontent.com/21036347/236429111-b151f3b5-64d0-4572-
 
 https://user-images.githubusercontent.com/21036347/236429690-93ea7377-e233-4629-868f-ef953a4dfa4c.mp4
 
-**(4) 视频检索 ** 
+**(4)视频检索** 
 
 https://user-images.githubusercontent.com/21036347/236430102-6054b28c-ebeb-42a2-880e-b2656fc32138.mp4
 
