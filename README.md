@@ -2,7 +2,7 @@
 ## 简介
 Open Chat Video Editor是开源的短视频生成和编辑工具，整体技术框架如下：
 
-![sys](https://user-images.githubusercontent.com/21036347/236424150-ff67dd18-5c6e-41ff-a865-340e63e8ff98.png)
+![sys中文](https://user-images.githubusercontent.com/21036347/236475457-e6104baa-11c2-4fe9-88b3-f328114d0076.png)
 
 目前具有以下特点：
 - 1、**一键生成可用的短视频**，包括：配音、背景音乐、字幕等。
