@@ -1,0 +1,20 @@
+video_editor:
+  type: text2video
+
+  # visual
+  visual_gen:
+    type: image_by_retrieval
+    image_by_retrieval:
+      model: ViT-L/14
+      device: 'cpu'
+      index_path: data/index/all_image_OPQ128_768_IVF65536_HNSW32_PQ128x8.faiss
+      meta_path: data/index/all_image_OPQ128_768_IVF65536_HNSW32_PQ128x8.db
+
+  # tts 
+  tts_gen:
+    model: PaddleSpeechTTS
+    am: fastspeech2_mix
+    lang: mix
+
+  # subtitle 
+

@@ -1,0 +1,19 @@
+video_editor:
+  type: text2video
+
+  # visual
+  visual_gen:
+    type: image_by_diffusion
+    image_by_diffusion:
+      model_id: stabilityai/stable-diffusion-2-1
+  # tts 
+  tts_gen:
+    model: PaddleSpeechTTS
+    am: fastspeech2_mix
+    lang: mix
+
+  # subtitle 
+
+  # text
+  text_gen:
+    type: EnToyTextGenModel

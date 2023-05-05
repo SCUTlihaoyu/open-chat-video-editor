@@ -1,0 +1,19 @@
+video_editor:
+  type: text2video
+  subtitle:
+    font: 幼圆
+  # visual
+  visual_gen:
+    type: image_by_retrieval
+    image_by_retrieval:
+      model: M-CLIP/XLM-Roberta-Large-Vit-L-14
+      device: 'cpu'
+      index_path: data\en\embed\img_emb_0000.npy.faiss
+      meta_path: data\en\meta\metadata_0000.parquet.db
+    
+  # tts 
+  tts_gen:
+    model: PaddleSpeechTTS
+    am: fastspeech2_mix
+    lang: mix
+

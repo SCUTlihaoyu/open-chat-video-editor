@@ -1,0 +1,22 @@
+video_editor:
+  type: text2video
+
+  # visual
+  visual_gen:
+    type: image_by_diffusion
+    image_by_diffusion:
+      model_id: stabilityai/stable-diffusion-2-1
+  # tts 
+  tts_gen:
+    model: PaddleSpeechTTS
+    am: speedyspeech_csmsc
+    lang: zh
+
+  # subtitle 
+  subtitle:
+    font: 华文细黑
+  # text
+  text_gen:
+    type: URL2TextChatGPTModel
+    organization: your_organization
+    api_key: "your_api_key"
