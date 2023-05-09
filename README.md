@@ -124,7 +124,7 @@ $HOME/anaconda3/envs/open_editor/lib/python3.8/site-packages/moviepy/config_defa
 #IMAGEMAGICK_BINARY = os.getenv('IMAGEMAGICK_BINARY', 'auto-detect')
 IMAGEMAGICK_BINARY='/usr/local/bin/magick'
 ```
-4）目前暂不支持中文字幕显示，目前需要修改配置文件yaml中的，例如’image_by_retrieval_text_by_chatgpt_zh.yaml‘
+4）目前暂不支持中文字幕显示，所以需要修改配置文件yaml中的字体设置，例如’image_by_retrieval_text_by_chatgpt_zh.yaml‘
 ```
   subtitle:
     font: DejaVu-Sans-Bold-Oblique
