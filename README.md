@@ -163,12 +163,15 @@ python  app/app.py --func URL2VideoEditor  --cfg ${cfg_file}
 一群200人已满
 ![微信图片_20230505204811](https://user-images.githubusercontent.com/21036347/236461673-53188ad6-ad27-470f-9910-6e648f92c240.jpg)
 
-请加二群:
+二群200人已满，
 
 
 
 
 ![WechatIMG1888](https://user-images.githubusercontent.com/21036347/236738826-ec47d75e-5b0d-45ad-8f09-8468e9eb8172.jpeg)
 
+请加三群：
+
+![301683610444_ pic](https://user-images.githubusercontent.com/26428693/237003622-af8b9c38-1d88-4518-8080-354666e7fa19.jpg)
 
 
