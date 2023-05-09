@@ -94,10 +94,13 @@ https://user-images.githubusercontent.com/21036347/236431745-9f61ebcc-91b5-4157-
 
 ## 安装与使用 
 ### 环境安装
-#### 1、docker环境
-
-敬请期待
-
+#### 1、Docker
+目前docker环境因为每个人的cuda版本可能不一样，所以无法保证都能够正常使用GPU。所以目前仅支持图像检索模式
+```
+docker pull iamjunhonghuang/open-chat-video-editor:retrival
+docker run -it --network=host -v /YourPath/open-chat-video-editor:/YourPath/open-chat-video-editor/ iamjunhonghuang/open-chat-video-editor:retrival bash
+conda activate open_editor
+```
 #### 2、Linux (目前仅在centOS测试)
 1）首先安装基于conda的python环境，gcc版本安装测试时是8.5.0，所以尽量升级到8以上
 ```
@@ -204,8 +207,6 @@ python  app/app.py --func URL2VideoEditor  --cfg ${cfg_file}
 ![微信图片_20230505204811](https://user-images.githubusercontent.com/21036347/236461673-53188ad6-ad27-470f-9910-6e648f92c240.jpg)
 
 二群200人已满，
-
-
 
 ![WechatIMG1888](https://user-images.githubusercontent.com/21036347/236738826-ec47d75e-5b0d-45ad-8f09-8468e9eb8172.jpeg)
 
