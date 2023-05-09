@@ -96,7 +96,7 @@ https://user-images.githubusercontent.com/21036347/236431745-9f61ebcc-91b5-4157-
 ### 环境安装
 根据不同需求，选择不同的安装方式1、2、和3、任选其一。
 #### 1、Docker
-目前docker环境因为每个人的cuda版本可能不一样，所以无法保证都能够正常使用GPU。所以目前仅支持图像检索模式
+目前docker环境因为每个人的cuda版本可能不一样，所以无法保证都能够正常使用GPU。目前仅支持图像检索模式，且占用比较多的储存（24G）。
 ```
 docker pull iamjunhonghuang/open-chat-video-editor:retrival
 docker run -it --network=host -v /YourPath/open-chat-video-editor:/YourPath/open-chat-video-editor/ iamjunhonghuang/open-chat-video-editor:retrival bash
