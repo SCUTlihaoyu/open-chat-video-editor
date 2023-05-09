@@ -105,10 +105,12 @@ conda activate open_editor
 1）首先安装基于conda的python环境，gcc版本安装测试时是8.5.0，所以尽量升级到8以上
 ```
 conda env create -f env.yaml
+conda env update -f env.yaml #假如第一行出现错误，需要更新使用的命令
 ```
 2） 接着安装环境依赖，主要目的是正常安装ImageMagick，其他linux版本可以参考
 ```
 # yum groupinstall 'Development Tools'
+# yum install ghostscript
 # yum -y install bzip2-devel freetype-devel libjpeg-devel libpng-devel libtiff-devel giflib-devel zlib-devel ghostscript-devel djvulibre-devel libwmf-devel jasper-devel libtool-ltdl-devel libX11-devel libXext-devel libXt-devel libxml2-devel librsvg2-devel OpenEXR-devel php-devel
 # wget https://www.imagemagick.org/download/ImageMagick.tar.gz
 # tar xvzf ImageMagick.tar.gz
@@ -127,7 +129,7 @@ $HOME/anaconda3/envs/open_editor/lib/python3.8/site-packages/moviepy/config_defa
 #IMAGEMAGICK_BINARY = os.getenv('IMAGEMAGICK_BINARY', 'auto-detect')
 IMAGEMAGICK_BINARY='/usr/local/bin/magick'
 ```
-4）目前暂不支持中文字幕显示，目前需要修改配置文件yaml中的，例如’image_by_retrieval_text_by_chatgpt_zh.yaml‘
+4）目前暂不支持中文字幕显示，所以需要修改配置文件yaml中的字体设置，例如’image_by_retrieval_text_by_chatgpt_zh.yaml‘
 ```
   subtitle:
     font: DejaVu-Sans-Bold-Oblique
