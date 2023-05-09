@@ -94,12 +94,16 @@ https://user-images.githubusercontent.com/21036347/236431745-9f61ebcc-91b5-4157-
 
 ## 安装与使用 
 ### 环境安装
-#### 1、Linux (目前仅在centOS测试)
+#### 1、docker环境
+
+敬请期待
+
+#### 2、Linux (目前仅在centOS测试)
 1）首先安装基于conda的python环境，gcc版本安装测试时是8.5.0，所以尽量升级到8以上
 ```
 conda env create -f env.yaml
 ```
-2） 接着安装环境依赖
+2） 接着安装环境依赖，主要目的是正常安装ImageMagick，其他linux版本可以参考
 ```
 # yum groupinstall 'Development Tools'
 # yum -y install bzip2-devel freetype-devel libjpeg-devel libpng-devel libtiff-devel giflib-devel zlib-devel ghostscript-devel djvulibre-devel libwmf-devel jasper-devel libtool-ltdl-devel libX11-devel libXext-devel libXt-devel libxml2-devel librsvg2-devel OpenEXR-devel php-devel
@@ -110,7 +114,7 @@ conda env create -f env.yaml
 # make
 # make install
 ```
-3) 需要修改moviepy的调用路径，也就是将下面文件
+3）需要修改moviepy的调用路径，也就是将下面文件
 ```
 $HOME/anaconda3/envs/open_editor/lib/python3.8/site-packages/moviepy/
 ```
@@ -121,7 +125,7 @@ IMAGEMAGICK_BINARY='/usr/local/bin/magick'
 ```
 
 
-#### 2、Windows
+#### 3、Windows
 1）安装pytorch 
 ```
 # GPU 版本
