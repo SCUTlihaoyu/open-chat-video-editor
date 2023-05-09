@@ -200,7 +200,7 @@ python  app/app.py --func URL2VideoEditor  --cfg ${cfg_file}
 
 
 ## 交流与学习 
-欢迎通过[Discard](https://discord.gg/yWt59JUd) 或者微信与我们交流学习
+欢迎通过[Discord](https://discord.gg/yWt59JUd) 或者微信与我们交流学习
 
 一群200人已满,
 ![微信图片_20230505204811](https://user-images.githubusercontent.com/21036347/236461673-53188ad6-ad27-470f-9910-6e648f92c240.jpg)
