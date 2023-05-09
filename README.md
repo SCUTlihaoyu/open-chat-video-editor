@@ -116,7 +116,7 @@ conda env create -f env.yaml
 ```
 3）需要修改moviepy的调用路径，也就是将下面文件
 ```
-$HOME/anaconda3/envs/open_editor/lib/python3.8/site-packages/moviepy/
+$HOME/anaconda3/envs/open_editor/lib/python3.8/site-packages/moviepy/config_defaults.py
 ```
 修改成
 ```
