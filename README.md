@@ -107,6 +107,7 @@ conda env update -f env.yaml #假如第一行出现错误，需要更新使用�
 2） 接着安装环境依赖，主要目的是正常安装ImageMagick，其他linux版本可以参考
 ```
 # yum groupinstall 'Development Tools'
+# yum install ghostscript
 # yum -y install bzip2-devel freetype-devel libjpeg-devel libpng-devel libtiff-devel giflib-devel zlib-devel ghostscript-devel djvulibre-devel libwmf-devel jasper-devel libtool-ltdl-devel libX11-devel libXext-devel libXt-devel libxml2-devel librsvg2-devel OpenEXR-devel php-devel
 # wget https://www.imagemagick.org/download/ImageMagick.tar.gz
 # tar xvzf ImageMagick.tar.gz
