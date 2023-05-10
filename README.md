@@ -140,7 +140,11 @@ IMAGEMAGICK_BINARY='/usr/local/bin/magick'
 
 
 #### 3、Windows
-1）安装pytorch 
+1）建议使用python 3.8.16版本：
+```
+conda create -n open_editor python=3.8.16
+```
+2）安装pytorch 
 ```
 # GPU 版本
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
@@ -150,11 +154,11 @@ pip3 install torch torchvision torchaudio
 
 ```
 
-2）安装其他依赖环境
+3）安装其他依赖环境
 
 ```pip install -r requirements.txt```
 
-3）安装clip 
+4）安装clip 
 
  ```pip install git+https://github.com/openai/CLIP.git```
  
