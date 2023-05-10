@@ -6,8 +6,8 @@ Open Chat Video Editor是开源的短视频生成和编辑工具，整体技术�
 
 
 ## TODO 
-- [ ] **windows、linux不同系统更方便的install指引**
-- [ ] **创建docker，方便大家一键使用**
+- [x] **windows、linux不同系统更方便的install指引**
+- [x] **创建docker，方便大家一键使用**
 - [ ] **能够在线直接快速体验的url**
 - [ ] 在短视频文案数据上对文本模型finetune,支持更多的文案风格
 - [ ]  finetune SD模型，提升图像和视频的生成效果
