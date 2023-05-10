@@ -102,14 +102,20 @@ docker pull iamjunhonghuang/open-chat-video-editor:retrival
 docker run -it --network=host -v /YourPath/open-chat-video-editor:/YourPath/open-chat-video-editor/ iamjunhonghuang/open-chat-video-editor:retrival bash
 conda activate open_editor
 ```
-更新了阿里云的镜像
+或者使用阿里云的镜像：
 ```
 docker login --username=xxx registry.cn-hangzhou.aliyuncs.com
 docker pull registry.cn-hangzhou.aliyuncs.com/iamjunhonghuang/open-chat-video-editor:retrival
 docker run -it --network=host -v /YourPath/open-chat-video-editor:/YourPath/open-chat-video-editor/ registry.cn-hangzhou.aliyuncs.com/iamjunhonghuang/open-chat-video-editor:retrival bash
 conda activate open_editor
 ```
-
+注意：目前暂不支持中文字幕显示，所以需要修改配置文件yaml中的字体设置，例如’image_by_retrieval_text_by_chatgpt_zh.yaml‘
+```
+  subtitle:
+    font: DejaVu-Sans-Bold-Oblique
+    # font: Cantarell-Regular
+    # font: 华文细黑
+```
 #### 2、Linux (目前仅在centOS测试)
 1）首先安装基于conda的python环境，gcc版本安装测试时是8.5.0，所以尽量升级到8以上
 ```
