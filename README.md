@@ -162,7 +162,7 @@ pip3 install torch torchvision torchaudio
 
  ```pip install git+https://github.com/openai/CLIP.git```
  
-4）安装faiss 
+5）安装faiss 
 
  ```conda install -c pytorch faiss-cpu```
 
