@@ -96,7 +96,7 @@ https://user-images.githubusercontent.com/21036347/236431745-9f61ebcc-91b5-4157-
 ### 环境安装
 根据不同需求，选择不同的安装方式1、2、和3、任选其一。
 #### 1、Docker
-目前docker环境因为每个人的cuda版本可能不一样，所以无法保证都能够正常使用GPU。目前支持图像检索模式，**CPU机器也可以使用**。但docker比较大，所以占用比较多的储存（24G）。
+目前docker环境因为每个人的cuda版本可能不一样，所以无法保证都能够正常使用GPU。目前支持图像检索模式，**CPU机器也可以使用**。但docker比较大，需要占用比较多的储存（24G）。
 ```
 docker pull iamjunhonghuang/open-chat-video-editor:retrival
 docker run -it --network=host -v /YourPath/open-chat-video-editor:/YourPath/open-chat-video-editor/ iamjunhonghuang/open-chat-video-editor:retrival bash
@@ -226,8 +226,11 @@ python  app/app.py --func URL2VideoEditor  --cfg ${cfg_file}
 
 ![WechatIMG1888](https://user-images.githubusercontent.com/21036347/236738826-ec47d75e-5b0d-45ad-8f09-8468e9eb8172.jpeg)
 
-请加三群：
+三群200人已满，
 
 ![301683610444_ pic](https://user-images.githubusercontent.com/26428693/237003622-af8b9c38-1d88-4518-8080-354666e7fa19.jpg)
 
 
+请加四群：
+
+![image](https://github.com/SCUTlihaoyu/open-chat-video-editor/assets/26428693/003d4e00-9f78-40db-8091-e256220322b2)
