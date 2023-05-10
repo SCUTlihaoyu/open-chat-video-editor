@@ -218,8 +218,11 @@ python  app/app.py --func URL2VideoEditor  --cfg ${cfg_file}
 
 ![WechatIMG1888](https://user-images.githubusercontent.com/21036347/236738826-ec47d75e-5b0d-45ad-8f09-8468e9eb8172.jpeg)
 
-请加三群：
+三群200人已满，
 
 ![301683610444_ pic](https://user-images.githubusercontent.com/26428693/237003622-af8b9c38-1d88-4518-8080-354666e7fa19.jpg)
 
 
+请加四群：
+
+![image](https://github.com/SCUTlihaoyu/open-chat-video-editor/assets/26428693/003d4e00-9f78-40db-8091-e256220322b2)
