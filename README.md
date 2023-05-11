@@ -236,7 +236,11 @@ python  app/app.py --func URL2VideoEditor  --cfg ${cfg_file}
 
 ![301683610444_ pic](https://user-images.githubusercontent.com/26428693/237003622-af8b9c38-1d88-4518-8080-354666e7fa19.jpg)
 
-
-请加四群：
+四群200人已满，
 
 ![image](https://github.com/SCUTlihaoyu/open-chat-video-editor/assets/26428693/003d4e00-9f78-40db-8091-e256220322b2)
+
+请加五群：
+
+![image](https://github.com/SCUTlihaoyu/open-chat-video-editor/assets/26428693/a06ec564-cdd4-4470-ada6-b59ff99a8f6a)
+
