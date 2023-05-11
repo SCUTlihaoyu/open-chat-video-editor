@@ -194,7 +194,7 @@ pip3 install torch torchvision torchaudio
 |configs\url2video\video_by_retrieval_text_by_chatgpt.yaml|url转视频,视频文案采用chatgpt生成,视觉部分采用视频检索来生成 |
 
 
-**需要注意的是：如果要采用ChatGPT来生成文案，需要在配置文件里面，添加organization 和 api_key**
+**需要注意的是：如果要采用ChatGPT来生成文案，需要在配置文件里面，添加organization_id（要在Organization settings那里查，而不是直接输入“personal”）和 api_key**
 
 2）下载数据索引和meta信息[data.tar](https://pan.quark.cn/s/19fa46ceb2cb),并解压到 data/index 目录下，
 
