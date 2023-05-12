@@ -198,7 +198,7 @@ pip3 install torch torchvision torchaudio
 
 2）下载数据索引和meta信息[data.tar](https://pan.quark.cn/s/19fa46ceb2cb),并解压到 data/index 目录下，
 
-3）执行脚本 
+3）执行脚本。注意：下面的${cfg_file}指的是是上面列表中的配置文件的路径，不同配置文件会运行不同的模式。例如：将下面${cfg_file}更改成configs/text2video/image_by_retrieval_text_by_chatgpt_zh.yaml
 ```
 # Text to video 
 python  app/app.py --func Text2VideoEditor  --cfg ${cfg_file}
