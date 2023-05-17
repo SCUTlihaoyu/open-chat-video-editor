@@ -94,9 +94,14 @@ https://user-images.githubusercontent.com/21036347/236431745-9f61ebcc-91b5-4157-
 
 ## 安装与使用 
 ### 环境安装
+首先下载源码
+```
+git clone https://github.com/SCUTlihaoyu/open-chat-video-editor.git
+```
 根据不同需求，选择不同的安装方式1、2、和3、任选其一。
 #### 1、Docker
 目前docker环境因为每个人的cuda版本可能不一样，所以无法保证都能够正常使用GPU。目前支持图像检索模式，**CPU机器也可以使用**。但docker比较大，需要占用比较多的储存（24G）。
+YourPath表示存放上面下载的代码的路径
 ```
 docker pull iamjunhonghuang/open-chat-video-editor:retrival
 docker run -it --network=host -v /YourPath/open-chat-video-editor:/YourPath/open-chat-video-editor/ iamjunhonghuang/open-chat-video-editor:retrival bash
