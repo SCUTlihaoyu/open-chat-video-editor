@@ -1,7 +1,10 @@
 # import logging
+import os
 from comm.mylog import logger
-from generator.text.models.toy import EnToyTextGenModel, ZhToyTextGenModel,ZhToyURL2TextModel
-from generator.text.models.chatgpt import ChatGPTModel,URL2TextChatGPTModel
+from generator.text.models.toy import EnToyTextGenModel, ZhToyTextGenModel, ZhToyURL2TextModel
+from generator.text.models.chatgpt import ChatGPTModel, URL2TextChatGPTModel
+
+env_api_key = os.environ.get("OPENAI_API_KEY", "")
 
 
 def build_text_generator(cfg):
@@ -14,15 +17,14 @@ def build_text_generator(cfg):
         text_generator = ZhToyTextGenModel()
     elif text_gen_type == "ZhToyURL2TextModel":
         text_generator = ZhToyURL2TextModel()
-        
+
     elif text_gen_type == "ChatGPTModel":
         organization = cfg.video_editor.text_gen.organization
-        api_key = cfg.video_editor.text_gen.api_key
-        text_generator = ChatGPTModel(cfg,organization,api_key)
+        api_key = env_api_key or cfg.video_editor.text_gen.api_key
+        text_generator = ChatGPTModel(cfg, organization, api_key)
     elif text_gen_type == "URL2TextChatGPTModel":
         organization = cfg.video_editor.text_gen.organization
-        api_key = cfg.video_editor.text_gen.api_key
-        text_generator = URL2TextChatGPTModel(cfg,organization,api_key)
-        
-    
+        api_key = env_api_key or cfg.video_editor.text_gen.api_key
+        text_generator = URL2TextChatGPTModel(cfg, organization, api_key)
+
     return text_generator
