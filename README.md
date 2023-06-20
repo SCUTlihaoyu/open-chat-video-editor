@@ -241,7 +241,9 @@ python  app/app.py --func URL2VideoEditor  --cfg ${cfg_file}
 四群200人已满，
 
 
-请加五群：
+五群200人已满，
+请加六群 
+![image](https://github.com/SCUTlihaoyu/open-chat-video-editor/assets/21036347/e44bdec0-b066-4cef-a4e2-34875ddd0467)
 
-![image](https://github.com/SCUTlihaoyu/open-chat-video-editor/assets/26428693/a06ec564-cdd4-4470-ada6-b59ff99a8f6a)
+
 
