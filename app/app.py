@@ -2,7 +2,6 @@ import gradio as gr
 import argparse
 import sys
 import os
-# sys.path.append("F:\Workspace\github\open-chat-video-editor")
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from editor.build import build_editor
 from configs.config import get_cfg_defaults  # local variable usage pattern, or:
